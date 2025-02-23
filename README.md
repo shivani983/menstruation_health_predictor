@@ -37,3 +37,6 @@ You can install the required packages using pip:
 pip install streamlit pandas numpy scikit-learn
 git clone https://github.com/shivani983/menstruation_health_predictor.git
 cd menstruation_health_predictor
+
+
+streamlit run model.py
