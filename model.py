@@ -37,7 +37,7 @@ def main():
     estimated_day_of_ovulation = st.number_input("Estimated Day of Ovulation", min_value=0, step=1)
     length_of_luteal_phase = st.number_input("Length of Luteal Phase (days)", min_value=0, step=1)
     length_of_menses = st.number_input("Length of Menses (days)", min_value=0, step=1)
-    unusual_bleeding = st.selectbox("Unusual Bleeding", ["No", "Yes"])
+    unusual_bleeding = st.selectbox("Unusual Bleeding", ["No", "yes"])
     weight = st.number_input("Weight (kg)", min_value=0, step=1)
     bmi = st.number_input("BMI", min_value=0, value = 16)
     mean_length_of_cycle = st.number_input("Mean Length of Cycle (days)", min_value=0, step=1)
